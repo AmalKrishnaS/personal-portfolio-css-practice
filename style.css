@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(31, 100, 204);
+    margin-bottom: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    width: 250px;
+    height: 80px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 32px 0;
+    list-style: none;
+}
+
+
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+}
